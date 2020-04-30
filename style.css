@@ -1,0 +1,48 @@
+body{
+	background-image: url('image/m1.png');   
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+}
+div{
+	width: 940px;
+	margin: 10px auto;
+}
+#navigation{
+	height: 26px;
+	background-color: #765BBC;
+	padding: 0;
+	padding-top: 7px;
+	padding-bottom: 0px;
+}
+nav ul li{
+	display: inline-block;
+	float: left;
+}
+a { 
+	padding: 2px 6px;
+	color: white; 
+	text-align: center;
+	text-decoration: none;
+}
+a:hover:not(.active) {
+	background-color: #B299F6;
+}
+a.active { 
+	background-color: #C0AEF0;
+}
+#content {
+	width: 900px;
+	background-color: #ffffff;
+	height: 180px;
+	opacity: 0.9;
+	padding: 20px;
+}
+h1{
+	font-style: italic;	
+	color: #2C1077;
+}
+p{
+	text-align: justify;
+	color: #f994b8;
+}
